@@ -1,0 +1,27 @@
+
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100%;
+  height: 100%;
+}
+
+img
+{
+  justify-content:  center;
+}
+
+
+button
+{
+justify-content: center;
+background-color: yellow;
+}
+
+#foot
+{
+  display: flex;
+  justify: flex-end;
+
+}
