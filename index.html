@@ -1,50 +1,52 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Google remix</title>
   <link rel="stylesheet" type="text/css" title="Cool stylesheet" href="style.css">
-
-
-
-
-
 </head>
+
 <body>
-  <div id="root"></div>
-  <p>Gmail</p>
-  <p>images</p>
-  <button onclick="changecss()">connexion </button>
+  <header id="header">
+    <p class="header">Gmail</p>
+    <p class="header">images</p>
+    <button class="header" onclick="changecss()">connexion </button>
+  </header>
 
-
-<center>
-<img src=https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png >
-  <form method=post>
-  google: <input type="text" name="nom" />
-     <button type="submit">Envoyer</button>
-   </form>
- </center>
-
-</body>
-<center>
+  <section id="section">
+    <div class="imag">
+      <img src=https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png>
+    </div>
+    <form class="imag" method=post>
+      <p>
+       <input type="text" name="nom" />
+      </p>
+    </form>
+    <div>
       <button onclick="changecss()">Recherche google </button>
+      <button onclick="changecss()">J'ai de la chance </button>
+    </div>
+  </section>
 
-          <button onclick="changecss()">J'ai de la chance </button>
-        </center>
+  <footer id="footer">
+    <div>
+      <p class="foot">France</p>
+    </div>
+    <div>
+      <p class="foot"> Publicité</p>
+      <p class="foot"> Entreprise</p>
+      <p class="foot"> À propos</p>
+    </div>
+    <div>
+      <p class="foot">Info consommateurs</p>
+      <p class="foot"> Confidentialité</p>
+      <p class="foot"> Conditions</p>
+      <p class="foot"> Paramètres</p>
+    </div>
 
+  </footer>
+</body>
 
-      </div>
-      <footer id="footer">
-    <p class="foot">Info</p>
-    <p class="foot"> consommateurs</p>
-    <p class="foot">  Confidentialité</p>
-    <p class="foot"> Conditions</p>
-    <p class="foot">  Paramètres</p>
-    <p class="foot">  Publicité</p>
-    <p class="foot">  Entreprise</p>
-    <p class="foot">  À propos</p>
-</footer>
-</div>
 </html>

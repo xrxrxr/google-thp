@@ -1,4 +1,17 @@
 
+#section
+{
+  display: flex;
+
+}
+.imag
+{
+  display: flex;
+  width: 500px;
+  height:350px;
+  flex-direction: column;
+  justify-content:center;
+}
 
 html, body {
   margin: 0px;
@@ -19,7 +32,12 @@ justify-content: center;
 background-color: yellow;
 }
 
-#foot
+.header
+{
+  display: flex;
+   align-self:  flex-end;
+ }
+.foot
 {
   display: flex;
   justify: flex-end;
